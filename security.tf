@@ -21,3 +21,8 @@ to_port= 0
 protocol= "-1"
 }
 }
+
+
+#forexistingsecuritygrouperror
+terraform import aws_security_group.mysg sg-065e22128df4b999b
+
